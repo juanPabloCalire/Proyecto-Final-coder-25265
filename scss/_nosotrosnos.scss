@@ -1,0 +1,44 @@
+.nosotrosNos {
+    border: solid;
+    color: rgb(116, 115, 115);
+    padding: 35px;
+    margin: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    h3{
+        
+        
+        color: rgb(94, 94, 94);
+    }
+    h5{
+        
+        color: rgb(123, 123, 123);
+    }
+    
+
+    animation-name: fondocolor;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
+    .nosotrosNos__titulo {
+        padding: 15px 0px;
+        
+    }
+
+
+    .nosotrosNos__parrafo {
+    
+        position: relative;
+        background: rgb(255, 255, 255);
+        text-align: center;
+        
+    }
+
+
+}
+
+
+
+

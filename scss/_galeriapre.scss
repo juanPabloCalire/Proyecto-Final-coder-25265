@@ -1,0 +1,34 @@
+.galeriaPre {
+    border: solid;
+    padding: 35px;
+    margin: 15px;
+    
+
+    .galeriaPre__fotos {
+    
+        background-color: rgb(255, 255, 255);
+        margin: 15px 0px 15px 0px;
+        .boton {
+            background-color: rgba(159, 153, 192, 0.207);
+            border-color:rgb(106, 106, 106);;
+            color:rgb(106, 106, 106);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+
+    
+    
+    }
+    .pie__pre {
+        text-align: center;
+        color: rgb(106, 106, 106);
+    }
+    
+    .galeriaPre__fotos:hover {
+        filter: opacity(0.9);
+        transform: scale(1.04);
+    }
+
+
+
+}

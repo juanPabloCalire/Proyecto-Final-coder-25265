@@ -1,0 +1,272 @@
+.btn--facebook {
+  background-color: #c8c8c8; }
+
+.btn--instagram {
+  background-color: #c8c8c8; }
+
+.btn--whatsapp {
+  background-color: #c8c8c8; }
+
+.cabecera {
+  border: solid;
+  color: black; }
+
+.contenedor .cabecera {
+  border: solid;
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: space-around; }
+  .contenedor .cabecera .texto a {
+    color: black; }
+  .contenedor .cabecera .imagenLogo {
+    width: 200px;
+    justify-content: right;
+    transform: translate(20px);
+    margin-right: px; }
+
+.seccionFoto {
+  border: solid;
+  padding: 35px;
+  margin: 0px 15px 15px 15px;
+  animation-name: fondocolor;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+  .seccionFoto .espaldaBaguala {
+    margin-left: 10px; }
+
+@keyframes fondocolor {
+  0% {
+    background-color: white; }
+  20% {
+    background-color: #f3f3f3; }
+  40% {
+    background-color: #ebebeb; }
+  60% {
+    background-color: #d6d3d3; }
+  80% {
+    background-color: #eeeeee; }
+  100% {
+    background-color: white; } }
+  .seccionFoto .espaldaBaguala {
+    padding: 20px 20px 20px 0px; }
+
+.nosotrosin {
+  background-color: #e8e8e8;
+  border: solid #828282;
+  padding: 35px;
+  margin: 0px 15px 0px 15px;
+  text-align: center; }
+  .nosotrosin .nosotrosin__titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 0px;
+    color: #595858; }
+  .nosotrosin .nosotrosin__parrafo {
+    position: relative;
+    bottom: px;
+    margin-top: px;
+    padding-top: 25px;
+    font-weight: 900;
+    width: px;
+    height: 150px;
+    background: #f0f0f3;
+    overflow: scroll;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #797979; }
+
+.pie {
+  border: solid;
+  padding: 15px;
+  margin: 15px;
+  background-color: #f1e7e7; }
+  .pie .pie__contacto {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px; }
+    .pie .pie__contacto ul {
+      list-style-type: none;
+      display: inline-block; }
+    .pie .pie__contacto li {
+      margin-top: 20px;
+      list-style-type: none;
+      display: inline-block; }
+    .pie .pie__contacto .instaEnlace {
+      list-style-type: none; }
+    .pie .pie__contacto .texto__horario {
+      background-color: rgba(159, 153, 192, 0.207);
+      color: #555555; }
+    .pie .pie__contacto .insta {
+      width: 50px;
+      list-style-type: none; }
+  .pie .pie__pago {
+    text-align: center;
+    margin-top: 50px; }
+    .pie .pie__pago article .textuno, .pie .pie__pago article .textdos, .pie .pie__pago article .texttres, .pie .pie__pago article .textcuatro {
+      color: #e01111;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: large;
+      background-color: rgba(159, 153, 192, 0.207); }
+    .pie .pie__pago article .textdos {
+      background-color: rgba(159, 153, 192, 0.207); }
+    .pie .pie__pago article .texttres {
+      background-color: rgba(159, 153, 192, 0.207); }
+    .pie .pie__pago article .textcuatro {
+      background-color: rgba(159, 153, 192, 0.207); }
+
+.contenedorPre .cabecera {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .contenedorPre .cabecera .texto a {
+    color: black; }
+  .contenedorPre .cabecera .imagenLogo {
+    width: 200px;
+    justify-content: right;
+    transform: translate(20px);
+    margin-right: px; }
+
+.galeriaPre {
+  border: solid;
+  padding: 35px;
+  margin: 15px; }
+  .galeriaPre .galeriaPre__fotos {
+    background-color: white;
+    margin: 15px 0px 15px 0px; }
+    .galeriaPre .galeriaPre__fotos .boton {
+      background-color: rgba(159, 153, 192, 0.207);
+      border-color: #6a6a6a;
+      color: #6a6a6a;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .galeriaPre .pie__pre {
+    text-align: center;
+    color: #6a6a6a; }
+  .galeriaPre .galeriaPre__fotos:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04); }
+
+.pie {
+  border: solid;
+  padding: 15px;
+  margin: 15px;
+  background-color: #f1e7e7; }
+  .pie .pie__contacto {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px; }
+    .pie .pie__contacto .texto__titulo {
+      color: rgba(88, 88, 88, 0.97); }
+    .pie .pie__contacto ul {
+      list-style-type: none;
+      display: inline-block; }
+    .pie .pie__contacto li {
+      margin-top: 20px;
+      list-style-type: none;
+      display: inline-block; }
+    .pie .pie__contacto .instaEnlace {
+      list-style-type: none; }
+    .pie .pie__contacto .insta {
+      width: 50px;
+      list-style-type: none; }
+  .pie .pie__pago {
+    text-align: center;
+    margin-top: 50px; }
+    .pie .pie__pago h4 {
+      color: rgba(88, 88, 88, 0.97); }
+    .pie .pie__pago article .textuno, .pie .pie__pago article .textdos, .pie .pie__pago article .texttres, .pie .pie__pago article .textcuatro {
+      color: rgba(88, 88, 88, 0.97);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: large;
+      background-color: rgba(159, 153, 192, 0.207); }
+    .pie .pie__pago article .textdos {
+      background-color: rgba(159, 153, 192, 0.207); }
+    .pie .pie__pago article .texttres {
+      background-color: rgba(159, 153, 192, 0.207); }
+    .pie .pie__pago article .textcuatro {
+      background-color: rgba(159, 153, 192, 0.207); }
+
+.contenedorNos .imagenLogoNos {
+  width: 200px;
+  justify-content: right;
+  transform: translate(20px); }
+
+.contenedorNos .cabeceraNos {
+  background-color: white;
+  padding: 15px;
+  margin: 15px;
+  border: solid;
+  display: flex;
+  justify-content: space-around;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .contenedorNos .cabeceraNos .texto a {
+    color: black; }
+
+.nosotrosNos {
+  border: solid;
+  color: #747373;
+  padding: 35px;
+  margin: 15px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  animation-name: fondocolor;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+  .nosotrosNos h3 {
+    color: #5e5e5e; }
+  .nosotrosNos h5 {
+    color: #7b7b7b; }
+  .nosotrosNos .nosotrosNos__titulo {
+    padding: 15px 0px; }
+  .nosotrosNos .nosotrosNos__parrafo {
+    position: relative;
+    background: white;
+    text-align: center; }
+
+.contenedorCon {
+  width: 100%;
+  margin: 15px auto; }
+  .contenedorCon .imagenLogoCon {
+    width: 200px;
+    justify-content: right;
+    transform: translate(20px); }
+  .contenedorCon .cabeceraCon {
+    background-color: white;
+    padding: 15px;
+    margin: 0px 15px 0px 15px;
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .contenedorCon .cabeceraCon .texto a {
+      color: black; }
+
+.contactoCon {
+  border: solid;
+  padding: 35px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation-name: fondocolor;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite; }
+  .contactoCon .contacto__titulo {
+    margin: 33px 33px 100px 0px;
+    color: #6a6a6a; }
+  .contactoCon .titulo {
+    font-size: 30px;
+    color: #6a6a6a; }
+  .contactoCon .botonSub {
+    background-color: #e2dddd;
+    color: black;
+    border: black; }

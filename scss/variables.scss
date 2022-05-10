@@ -1,0 +1,31 @@
+$redes:(
+    facebook:rgb(200, 200, 200),
+    instagram: rgb(200, 200, 200),
+    whatsapp: rgb(200, 200, 200),
+   
+);
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: $color;
+    }
+    
+}
+$estilos:(
+    color: rgb(232, 232, 232),
+    centro: center,
+    tFuente: 35px,
+);
+
+@mixin size ($border, $color) { 
+    border: $border;
+    color: $color;  
+}
+.cabecera{
+    @include size( solid,rgb(0, 0, 0) )
+}
+
+
+
+
+
+

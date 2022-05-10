@@ -1,0 +1,34 @@
+.nosotrosin {
+    background-color: map-get($estilos,color );
+    border: solid rgb(130, 130, 130);
+    padding: 35px;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+
+    .nosotrosin__titulo {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 15px 0px;
+        color: rgb(89, 88, 88);
+    }
+
+    .nosotrosin__parrafo {
+
+        position: relative;
+        bottom: px;
+        margin-top: px;
+        padding-top: 25px;
+        font-weight: 900;
+        width: px;
+        height: 150px;
+        background: rgb(240, 240, 243);
+        overflow: scroll;
+        text-align: center;
+        font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+        color: rgb(121, 121, 121);
+        
+    }
+
+}
